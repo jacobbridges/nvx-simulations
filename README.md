@@ -93,4 +93,3 @@ This project primarily utilizes the following technologies and libraries:
 * **Data Handling**: Pandas
 * **Visualization**: Matplotlib, Seaborn
 * **Environment Management**: uv
- the MIT License. See `LICENSE` for more information.
