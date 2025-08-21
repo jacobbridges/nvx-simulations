@@ -11,9 +11,10 @@ class WealthAgent(Agent):
         wealth (int): The agent's current wealth.
     """
 
-    def __init__(self, model: Model, initial_wealth=1):
+    def __init__(self, model: Model, initial_wealth=1, enable_debt=False):
         super().__init__(model)
         self.wealth = initial_wealth
+        self.enable_debt = enable_debt
 
     def move(self):
         """
@@ -38,8 +39,10 @@ class WealthAgent(Agent):
             amount (int): The amount of wealth units to be given
             to (WealthAgent): The agent who will receive the wealth
         """
-        # Yes, this can go negative. I want to use that to simulate debt.
-        self.wealth -= amount
+        if self.enable_debt:
+            self.wealth -= amount
+        else:
+            self.wealth = max(0, self.wealth - amount)
         to.receive_wealth(amount)
 
     def receive_wealth(self, amount: int):

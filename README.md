@@ -28,7 +28,7 @@ Explore the simulations through the Jupyter notebooks linked below. Each noteboo
 ### Quick Links
 
 * **Economy Simulations**: [notebooks/economy](./notebooks/economy)
-    * `e01_simple_boltzmann.ipynb` - Primitive Boltzmann model
+    * `e01_boltzmann_gibbs.ipynb` - Primitive Boltzmann-Gibbs model
 * **Finance Simulations**: [notebooks/finance](./notebooks/finance)
     * `f01_behavioral_zoo.ipynb` - Psychological state of traders.
 
