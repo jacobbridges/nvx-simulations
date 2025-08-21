@@ -1,19 +1,3 @@
-# NVX Simulations
-
-A repository dedicated to exploring and implementing various simulation strategies, including Agent-Based Modeling (ABM), across various domains. This project serves as a public log of my learning journey.
-
----
-
-## Table of Contents
-
-* [About The Project](#about-the-project)
-* [Simulation Notebooks](#simulation-notebooks)
-* [Repository Structure](#repository-structure)
-* [Getting Started](#getting-started)
-* [Technology Stack](#technology-stack)
-
----
-
 ## About The Project
 
 This repository is my "hands-on" knowledge base for simulation modeling. As I learn new techniques and explore different libraries, I will document my progress and share my findings through practical examples and Jupyter notebooks. The goal is to build a collection of simulations that I can reference in the future, but might also help someone else.
@@ -32,7 +16,7 @@ Explore the simulations through the Jupyter notebooks linked below. Each noteboo
 * **Finance Simulations**: [notebooks/finance](./notebooks/finance)
     * `f01_behavioral_zoo.ipynb` - Psychological state of traders.
 
----
+
 
 ## Repository Structure
 
@@ -41,7 +25,7 @@ The repository is organized to separate exploratory analysis from reusable, core
 * `notebooks/`: Contains all Jupyter notebooks. They are organized by domain (e.g., `economy`, `finance`).
 * `src/nvx_sim/`: Contains the core Python source code. This includes custom agent definitions, model classes, and data handlers that can be imported into notebooks or other scripts.
 
----
+
 
 ## Getting Started
 
@@ -82,7 +66,7 @@ To get a local copy up and running, follow these simple steps.
     jupyter lab
     ```
 
----
+
 
 ## Technology Stack
 
