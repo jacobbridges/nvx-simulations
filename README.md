@@ -11,10 +11,12 @@ Explore the simulations through the Jupyter notebooks linked below. Each noteboo
 
 ### Quick Links
 
+* **General Simulations**: [notebooks/general](./notebooks/general)
+    * `g01_schelling_segregation.ipynb` - Schelling Segregation model
 * **Economy Simulations**: [notebooks/economy](./notebooks/economy)
     * `e01_boltzmann_gibbs.ipynb` - Primitive Boltzmann-Gibbs model
 * **Finance Simulations**: [notebooks/finance](./notebooks/finance)
-    * `f01_behavioral_zoo.ipynb` - Psychological state of traders.
+    * `f01_behavioral_zoo.ipynb` - (WIP) Trade Psychological model
 
 
 
